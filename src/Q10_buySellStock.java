@@ -20,12 +20,12 @@ public class Q10_buySellStock {
     public int maxProfit(int[] prices) {
         int min = Integer.MAX_VALUE;
         int maxProfit = 0;
-        for(int i = 0; i<prices.length;i++){
-            if(prices[i] < min){
-                min = prices[i];
+        for (int price : prices) {
+            if (price < min) {
+                min = price;
             }
-            int currentProfit = prices[i] - min;
-            if(currentProfit > maxProfit){
+            int currentProfit = price - min;
+            if (currentProfit > maxProfit) {
                 maxProfit = currentProfit;
             }
         }
