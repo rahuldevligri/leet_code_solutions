@@ -9,7 +9,7 @@ Output: [1,2]
 Example 2:
 Input: head = [1,
 */
-public class Q8_RemoveDuplicatesFromSortedList {
+public class Q08_RemoveDuplicatesFromSortedList {
     static class ListNode {
         int val;
         ListNode next;
@@ -50,7 +50,7 @@ public class Q8_RemoveDuplicatesFromSortedList {
         System.out.println("Original List:");
         printList(head);
 
-        Q8_RemoveDuplicatesFromSortedList solution = new Q8_RemoveDuplicatesFromSortedList();
+        Q08_RemoveDuplicatesFromSortedList solution = new Q08_RemoveDuplicatesFromSortedList();
         ListNode updatedHead = solution.deleteDuplicates(head);
 
         System.out.println("List after removing duplicates:");

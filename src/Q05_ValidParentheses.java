@@ -18,7 +18,7 @@ Output: false           Output: true
 
 import java.util.Stack;
 
-public class Q5_ValidParentheses {
+public class Q05_ValidParentheses {
     public boolean isValid(String s) {
         Stack<Character> stk = new Stack<>();
         for(char c : s.toCharArray()){
@@ -38,7 +38,7 @@ public class Q5_ValidParentheses {
     }
     public static void main(String[] args){
         String str = "({[})";
-        Q5_ValidParentheses q5 = new Q5_ValidParentheses();
+        Q05_ValidParentheses q5 = new Q05_ValidParentheses();
         System.out.println(q5.isValid(str));
     }
 }

@@ -17,7 +17,7 @@ Input: s = "luffy is still joyboy"
 Output: 6
 Explanation: The last word is "joyboy" with length 6.
 */
-public class Q7_LengthOfLastWord {
+public class Q07_LengthOfLastWord {
     public int lengthOfLastWord(String s) {
         String[] words = s.split(" ");
         String lastWord = words[words.length-1];
@@ -43,7 +43,7 @@ public class Q7_LengthOfLastWord {
 
     public static void main(String[] args){
         String s = "    ";
-        Q7_LengthOfLastWord q7 = new Q7_LengthOfLastWord();
+        Q07_LengthOfLastWord q7 = new Q07_LengthOfLastWord();
         System.out.println(q7.lengthOfLastWord2(s));
     }
 }

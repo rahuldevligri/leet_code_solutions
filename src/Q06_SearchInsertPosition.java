@@ -17,7 +17,7 @@ Input: nums = [1,3,5,6], target = 7
 Output: 4
 
 */
-public class Q6_SearchInsertPosition {
+public class Q06_SearchInsertPosition {
     public static void main(String[] args){
         int[] nums = {1,3,5,6};
         int target = 2;

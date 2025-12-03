@@ -20,7 +20,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Q1_TwoSum {
+public class Q01_TwoSum {
     public int[] twoSum1(int[] nums, int target) {
 
         for(int i=1; i<nums.length; i++){
@@ -53,7 +53,7 @@ public class Q1_TwoSum {
         return new int[0];
     }
         public static void main(String[] args){
-            Q1_TwoSum q1 = new Q1_TwoSum();
+            Q01_TwoSum q1 = new Q01_TwoSum();
             int[] ans = q1.twoSum1(new int[]{2, 11, 7, 15}, 9);
             System.out.println(Arrays.toString(ans));
     }

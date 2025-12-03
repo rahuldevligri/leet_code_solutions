@@ -40,7 +40,7 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4. */
 import java.util.HashMap;
 import java.util.Map;
 
-public class Q3_RomanToInt {
+public class Q03_RomanToInt {
     public int romanToInt(String s) {
         if (s == null || s.isEmpty()) return 0;
 
@@ -88,7 +88,7 @@ public class Q3_RomanToInt {
     public static void main(String[] args){
         String s = "LVIII";
 
-        Q3_RomanToInt q = new Q3_RomanToInt();
+        Q03_RomanToInt q = new Q03_RomanToInt();
         System.out.println(q.romanToInt(s));
         System.out.println(q.romanToInt2(s));
 

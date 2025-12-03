@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /* 88. Merge Sorted Array
 You are given two integer arrays nums1 and nums2, sorted in non-decreasing order,
 and two integers m and n, representing the number of elements in nums1 and nums2 respectively.
@@ -29,7 +27,10 @@ Explanation: The arrays we are merging are [] and [1].
 The result of the merge is [1].
 Note that because m = 0, there are no elements in nums1. The 0 is only there to ensure the merge result can fit in nums1.
  */
-public class Q9_MergeSortedArray {
+
+import java.util.Arrays;
+
+public class Q09_MergeSortedArray {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int p1= m - 1;
         int p2 = n - 1;
@@ -56,7 +57,7 @@ public class Q9_MergeSortedArray {
         int[] nums2 = {2,5,6};
         int n = 3;
 
-        Q9_MergeSortedArray q9 = new Q9_MergeSortedArray();
+        Q09_MergeSortedArray q9 = new Q09_MergeSortedArray();
         q9.merge(nums1, m, nums2, n);
     }
 }

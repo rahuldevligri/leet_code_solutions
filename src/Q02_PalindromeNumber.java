@@ -19,7 +19,7 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 
 import java.util.*;
 
-public class Q2_PalindromeNumber {
+public class Q02_PalindromeNumber {
     public boolean isPalindrome(int x) {
         // Negative numbers are not palindrome
         if (x < 0) return false;
@@ -49,7 +49,7 @@ public class Q2_PalindromeNumber {
         System.out.print("Enter number: ");
         int num = sc.nextInt();
 
-        Q2_PalindromeNumber pn = new Q2_PalindromeNumber();
+        Q02_PalindromeNumber pn = new Q02_PalindromeNumber();
         System.out.println(pn.isPalindrome(num));
         System.out.println(pn.isPalindromeString(num));
     }
