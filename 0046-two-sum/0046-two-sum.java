@@ -9,6 +9,10 @@ class Solution {
             }
             hm.put(nums[i], i);
         }
-        return new int[1];
+        return new int[0];
     }
 }
+/* Complexity:
+Time: O(n) average	
+Space: O(n)
+*/
